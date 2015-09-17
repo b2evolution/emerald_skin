@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/* -------------------------------- b2evolution Stylesheet Imports --------------------------------- */
+/*
+	Design by Free CSS Templates
+	http://www.freecsstemplates.org
+	Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/* Basic */
+* {
+	margin: 0em;
+	padding: 0em;
+}
+h1,h2 {
+}
+html, body {
+	font-family: "trebuchet ms", sans-serif;
+	color: #555555;
+	font-size: 11pt;
+	margin: 0 auto;
+}
+a {
+	color: #669911;
+}
+
+/* Outer */
+#outer {
+}
+
+/* Header */
+#header {
+	height: 95px;
+	background-image: url('rsc/img/a2.gif');
+	background-position: bottom left;
+	padding-left: 40px;
+	padding-top: 45px;
+}
+#header h1 a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+#header h1 {
+	text-transform: lowercase;
+	font-size: 1.6em;
+}
+#header h2,
+#header .widget_core_coll_tagline {
+	position: relative;
+	/* top: -0.3em; */
+	color: #E8EFC2;
+	font-weight: normal;
+	font-size: 1.1em;
+	text-transform: lowercase;
+}
+
+#pagetop {
+	text-align: right;
+	float: right;
+	/* width: 600px; */
+	margin: -35px 25px 0 0;
+}
+#pagetop ul, .blog_list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#pagetop li, .blog_list a {
+	display: inline;
+}
+#pagetop li a, .blog_list a {
+	padding: 0 0 0 25px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+#pagetop li a:hover, .blog_list a:hover {
+	text-decoration: none;
+}
+
+/* Menu */
+#menu {
+	background-image: url('rsc/img/a3.gif');
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	padding: 1em 2.5em 1em 2.5em;
+}
+#menu ul {
+	list-style: none;
+}
+#menu li {
+	display: inline;
+}
+#menu li a {
+	font-size: 1.1em;
+	font-weight: bold;
+	text-transform: lowercase;
+	color: #5D5F53;
+	text-decoration: none;
+	margin-right: 1em;
+}
+#menu li a:hover {
+	color: #6B7E09;
+	text-decoration: underline;
+}
+
+/* Content */
+#content {
+	padding: 3em 15px 1em 15px;
+	line-height: 1.6em;
+	background: url('rsc/img/a4.gif') repeat-x top left;
+}
+#content p {
+	margin-bottom: 1.5em;
+}
+#content h2,h3,h4,h5,h6 {
+	/* margin-bottom: 1em; */
+	margin-bottom: 0.24em;
+}
+/* note: added #content ol to fix ordered lists in the content area */
+#content ul,
+#content ol {
+	margin-bottom: 1.5em;
+	padding-left: 1em;
+}
+#content blockquote {
+	padding: 1em;
+	margin-bottom: 1.5em;
+	background-color: #FFFCD8;
+	background-image: url('rsc/img/a5.gif');
+	background-repeat: no-repeat;
+	background-position: top left;
+	border: dotted 1px #DFD999;
+}
+#content blockquote p {
+	margin-bottom: 0em;
+}
+#content table {
+	margin-bottom: 1.5em;
+}
+#content table th {
+	text-align: left;
+	font-weight: bold;
+	padding: 0.5em;
+}
+#content table td {
+	padding: 0.5em;
+}
+/* note: Odd rows */
+#content table tr.rowA,
+#content table tr.rowO {
+	background-color: #EAEFE0;
+	color: inherit;
+}
+/* note: Even rows */
+#content table tr.rowB,
+#content table tr.rowE {
+	background-color: #F9FFEF;
+	color: inherit;
+}
+
+/* Primary Content */
+#primaryContentContainer {
+	float: left;
+	margin-right: -460px;
+	width: 100%;
+}
+#primaryContent {
+	margin: 0em 470px 0em 0em;
+	padding: 0em 1.5em 1.5em 1.5em;
+}
+#primaryContent h2, #primaryContent h3 {
+	text-transform: lowercase;
+	color: #5D5F53;
+	border-bottom: dotted 1px #ECEEDF;
+	padding-bottom: 0.3em;
+}
+
+#secondaryContent h3, #tertiaryContent h3 {
+	background: url('rsc/img/a1.gif') no-repeat;
+	width: 185px;
+	height: 27px;
+	font-size: 1.0em;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-top: 5px;
+	text-transform: lowercase;
+	color: #5D5F53;
+}
+
+/* note: added #wideContent for Wide Sidebar */
+#wideContent h3 {
+	background: url('rsc/img/a1.gif') no-repeat;
+	height: 27px;
+	font-size: 1.0em;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-top: 5px;
+	text-transform: lowercase;
+	color: #5D5F53;
+}
+
+/* note: added to blend linkified widget names */
+#secondaryContent h3 a, #tertiaryContent h3 a {
+	background: url('rsc/img/a1.gif') no-repeat;
+	width: 185px;
+	height: 27px;
+	font-size: 1.0em;
+	font-weight: bold;
+	padding-top: 5px;
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #5D5F53;
+}
+
+#wideContent h3 a {
+	background: url('rsc/img/a1.gif') no-repeat;
+	height: 27px;
+	font-size: 1.0em;
+	font-weight: bold;
+	padding-top: 5px;
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #5D5F53;
+}
+
+/* Secondary Content */
+#secondaryContent {
+	float: left;
+	width: 215px;
+}
+
+/* Tertiary Content */
+#tertiaryContent {
+	float: right;
+	width: 215px;
+	padding-right: 1em;
+}
+
+/* Wide Content */
+#wideContent {
+	float: left;
+	padding-right: 1em;
+}
+
+/* Footer */
+#footer {
+	background: url('rsc/img/a4.gif') repeat-x top left;
+	border-top: solid 1px #D0D4BB;
+	padding: 2.0em 3.5em 3.0em 3.5em;
+	font-size: 0.8em;
+}
+.clear {
+	clear: both;
+}
+
+form.bComment .submit, form.bComment .preview, .compact_search_form .submit, #content .extended_search_form .submit {
+	color: #fff;
+	background-color: #669911;
+	border-radius: 0px !important;
+	border:1px solid #669911 !important;
+	cursor: pointer;
+	padding: 2px;
+}
+#content .extended_search_form .submit {
+	margin-left: 3px;
+}
+form.bComment .submit:hover, form.bComment .preview:hover, .compact_search_form .submit:hover, #content .extended_search_form .submit:hover {
+	opacity: 0.8;
+	background-color: #669911;
+	color: #fff;
+}

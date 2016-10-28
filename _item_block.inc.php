@@ -85,12 +85,14 @@ $params = array_merge( array(
 		?>
 
 		<?php
-			// List all tags attached to this post:
+			if( ! $Item->is_intro() )
+			{ // List all tags attached to this post:
 			$Item->tags( array(
 					'before' =>         '<div class="posttags">'.T_('Tags').': ',
 					'after' =>          '</div>',
 					'separator' =>      ', ',
 				) );
+			}
 		?>
 
 		<p class="postinfo">
